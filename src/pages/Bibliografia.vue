@@ -23,78 +23,55 @@ export default {
     referencias: [
       {
         referencia:
-          'Blanco, P., & Sánchez, J. (2023). Fundamentos de la programación orientada a objetos con Java. Ra-Ma Editorial.',
-        link: '',
+          'Batanero, C. (2001). Didáctica de la estadística. Granada: Universidad de Granada.',
       },
       {
         referencia:
-          'Ceballos, F. J. (2022). Programación orientada a objetos con C++. Ra-Ma Editorial.',
-        link: '',
+          'Cochran, W. G. (1980). Técnicas de muestreo (3.ª ed.). México: CECSA.',
       },
       {
         referencia:
-          'Deitel, P., & Deitel, H. (2024). Java How to Program (12th ed.). Pearson Education.',
-        link: '',
+          'Escobar Mercado, M., Fernández Macías, E., & Bernardi, F. (2012). Análisis de datos con Stata (2ª ed.). Centro de Investigaciones Sociológicas. Recuperado de Academia.',
       },
       {
         referencia:
-          'Freeman, E., Robson, E., Sierra, K., & Bates, B. (2022). Head First Design Patterns (3rd ed.). O&#39;Reilly Media.',
-        link: '',
+          'Hernández Martín, Z. (2018). Métodos de análisis de datos: apuntes. Universidad de La Rioja. Recuperado de Universidad de la Rioja.',
       },
       {
         referencia:
-          'Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (2023). Design Patterns: Elements of Reusable Object-Oriented <em>Software</em> (Anniversary ed.). Addison-Wesley Professional.',
-        link: '',
+          'Hernández Sampieri, R., Fernández Collado, C., & Baptista Lucio, P. (2014). Metodología de la investigación (6.ª ed.). México: McGraw-Hill.',
       },
       {
         referencia:
-          'García, A., & Martínez, C. (2023). UML: Modelado de software para profesionales. Alfaomega.',
-        link: '',
+          'Martínez, J. (2004). Muestreo estadístico. Madrid: Alianza Editorial.',
       },
       {
         referencia:
-          'Larman, C. (2022). Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design (4th ed.). Pearson Education.',
-        link: '',
+          'Montgomery, D. C., & Runger, G. C. (2015). Probabilidad y estadística aplicada a la ingeniería (5.ª ed.). México: McGraw-Hill.',
       },
       {
         referencia:
-          'López, J. M., & Montero, F. (2024). Patrones de diseño en Java: Una guía práctica. Universidad de Castilla-La Mancha.',
-        link: '',
+          'Obando-Bastidas, J. A., & Castellanos Sánchez, M. T. (2021). Gráficos estadísticos: guía práctica para estadística descriptiva. Universidad Cooperativa de Colombia. Recuperado de Repositorio UCC.',
       },
       {
         referencia:
-          'Martin, R. C. (2023). Clean Architecture: A Craftsman&#39;s Guide to Software Structure and Design. Prentice Hall.',
-        link: '',
+          'Panteleeva, O. V. (2005). Fundamentos de Probabilidad y Estadística. UAEM.',
       },
       {
         referencia:
-          'Martin, R. C. (2021). Agile <em<Software Development</em>, Principles, Patterns, and Practices (2nd ed.). Pearson Education.',
-        link: '',
+          'Ramos Calcina, A., Villasante Saravia, F. H., & Álvarez Rozas, T. P. (2023). Estadística descriptiva con R (2ª ed.). Universidad Nacional del Altiplano. Recuperado de Repositorio UNAP.',
       },
       {
         referencia:
-          'Méndez, A. (2023). Principios SOLID explicados: Una guía práctica con ejemplos en Python. Marcombo.',
-        link: '',
+          'Scheaffer, R. L., Mendenhall, W., & Ott, R. L. (2007). Elementos de muestreo (6.ª ed.). México: Thomson.',
       },
       {
         referencia:
-          'Phillips, D. (2024). Python 3 Object-Oriented Programming (4th ed.). Packt Publishing.',
-        link: '',
+          'Triola, M. F. (2018). Estadística (12.ª ed.). México: Pearson Educación.',
       },
       {
         referencia:
-          'Sánchez, G. (2022). Programación orientada a objetos: Un enfoque práctico. Universidad Nacional Autónoma de México.',
-        link: '',
-      },
-      {
-        referencia:
-          'Torres, R., & Velázquez, P. (2023). Modelado UML con ejemplos prácticos. Alfaomega.',
-        link: '',
-      },
-      {
-        referencia:
-          'Valdés-Miranda, C., & Rodríguez, P. (2024). Diseño y programación orientada a objetos: Una perspectiva práctica. Anaya Multimedia.',
-        link: '',
+          'Walpole, R. E., Myers, R. H., Myers, S. L., & Ye, K. (2012). Probabilidad y estadística para ingenieros (9.ª ed.). México: Pearson Educación.',
       },
     ],
   }),

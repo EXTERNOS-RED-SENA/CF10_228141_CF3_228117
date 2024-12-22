@@ -1,128 +1,318 @@
-<template lang="pug">
-.curso-main-container.pb-3
-  BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-        span 3
-      h1 Modelado y diseño UML
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/24.png', alt='')
-      .col-lg-8
-        .p-5(style="background-color: #DED5DB ")
-          p.mb-0 El Lenguaje Unificado de Modelado (UML) es una herramienta fundamental para visualizar y comunicar el diseño de sistemas orientados a objetos. En este capítulo, exploraremos cómo representar nuestras ideas y diseños de manera clara y estandarizada, facilitando la comunicación entre todos los miembros del equipo de desarrollo.
-    Separador
-    #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 3.1 Diagramas de clases UML
-    p.mb-4 Los diagramas de clases son quizás la herramienta más importante en el modelado orientado a objetos. Imaginemos que estamos diseñando un sistema para una biblioteca digital moderna. En lugar de comenzar a programar inmediatamente, podemos visualizar la estructura del sistema utilizando UML.
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Figura 2.
-      span Diagrama de clases de una biblioteca digital
-    img(src='@/assets/curso/temas/25.svg', alt='La Figura 2 se denomina «Diagrama de clases de una biblioteca digital». Ilustra un Diagrama de clases UML que muestra la relación entre las clases Usuario, RecursoDigital y Préstamo en una biblioteca digital. Las clases están conectadas por líneas que indican relaciones de muchos a uno (representadas con asteriscos y unos), mostrando cómo un préstamo conecta a un usuario con un recurso digital.').mb-3
-    figcaption.mb-4 Fuente: OIT, 2024.
-    p.mb-4 Aunque el diagrama de clases es el más utilizado en POO, UML ofrece una variedad de diagramas para modelar diferentes aspectos de un sistema. Cada tipo de diagrama tiene un propósito específico y nos ayuda a visualizar el sistema desde distintas perspectivas.
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 2.
-      span Diagramas UML y sus aplicaciones en el modelado de #[em software]
-    .tabla-a.color-acento-botones.mb-5
-      table
-        caption Fuente: OIT, 2024.
-        thead(style="background-color: #13DE61").border-0
-          tr
-            th Tipo de diagrama
-            th Descripción
-            th Uso principal
-            th Ejemplo de aplicación
-            
-        tbody
-          tr
-            td Clases
-            td Muestra la estructura estática del sistema, incluyendo clases, atributos, métodos y relaciones
-            td Modelado estructural y arquitectónico
-            td Diseñar la estructura de una aplicación de comercio electrónico
-          tr
-            td Secuencia
-            td Representa interacciones entre objetos en orden temporal
-            td Modelado de flujos y comunicación entre objetos
-            td Visualizar el proceso de #[em checkout] en una tienda en línea
-          tr
-            td Casos de Uso
-            td Describe las interacciones entre el sistema y sus actores externos
-            td Captura de requisitos y funcionalidades
-            td Definir las operaciones que puede realizar un cajero automático
-          tr
-            td Estado
-            td Muestra los diferentes estados de un objeto y sus transiciones
-            td Modelado de comportamiento y flujos de estado
-            td Representar los estados de un pedido (creado, pagado, enviado, entregado)
-          tr
-            td Actividad
-            td Ilustra el flujo de trabajo o proceso paso a paso
-            td Modelado de procesos de negocio
-            td Describir el proceso de matriculación en una universidad
-          tr
-            td Componentes
-            td Muestra la organización y dependencias entre componentes del sistema
-            td Arquitectura de alto nivel
-            td Visualizar los módulos principales de un sistema ERP
-          tr
-            td Despliegue
-            td Representa la arquitectura física del sistema
-            td Planificación de infraestructura
-            td Mostrar la distribución de servidores y servicios en la nube
-          tr
-            td Objetos
-            td Muestra una instantánea de las instancias del sistema en un momento dado
-            td Modelado de ejemplos concretos
-            td Ilustrar un escenario específico de usuarios y productos
-          tr
-            td Paquetes
-            td Organiza elementos del modelo en grupos relacionados
-            td Gestión de componentes y módulos
-            td Estructurar los diferentes módulos de una aplicación empresarial
-          tr
-            td Temporización
-            td Muestra cambios en el estado o valor de uno o más elementos a lo largo del tiempo
-            td Modelado de sistemas en tiempo real
-            td Representar el comportamiento de un sistema de control industrial
-    p.mb-3 Esta diversidad de diagramas nos permite abordar el modelado desde múltiples perspectivas, asegurando una comprensión completa del sistema en desarrollo. La clave está en seleccionar el tipo de diagrama más adecuado para comunicar cada aspecto específico del sistema que estamos diseñando.
-    Separador
-    #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 3.2 Relaciones entre clases
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8.col-7.mb-lg-0.mb-3
-        .p-5(style="background-color: #DED5DB ")
-          p.mb-0 Las relaciones entre clases son fundamentales en el diseño orientado a objetos. En nuestro ejemplo de la biblioteca digital, podemos ver cómo un usuario puede tener múltiples préstamos activos, y cada recurso digital puede estar prestado a varios usuarios a lo largo del tiempo. Estas relaciones se representan mediante líneas y símbolos específicos en UML, donde la cardinalidad (1, , 1., etc.) indica cuántas instancias de cada clase pueden participar en la relación.
-      .col-lg-4: img(src='@/assets/curso/temas/26.png', alt='')
-    Separador
-    #t_3_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 3.2 Relaciones entre clases
-    p.mb-4 Las herramientas CASE (#[em Computer-Aided Software Engineering]) han evolucionado significativamente, permitiéndonos crear y mantener diagramas UML de manera eficiente. Herramientas modernas como Enterprise Architect, StarUML o Draw.io no solo nos permiten crear diagramas visualmente atractivos, sino que también pueden generar código base a partir de nuestros diseños y mantener la documentación sincronizada con el código.Cuando trabajamos en equipo, estas herramientas son particularmente valiosas porque:
-    .row.justify-content-center.mb-5
-      .col-lg-6.mb-lg-0.mb-3.col-7: img(src='@/assets/curso/temas/27.png', alt='')
-      .col-lg-6
-        .p-4(style="background-color: #E6F0FC").mb-4
-          ul.lista-ul--color
-            li.d-flex
-              i.fas.fa-check-circle(style="color: #1169E3")
-              p.mb-0 Mantienen una representación consistente del sistema
-            li.d-flex
-              i.fas.fa-check-circle(style="color: #1169E3")
-              p.mb-0 Facilitan la comunicación entre desarrolladores
-            li.d-flex
-              i.fas.fa-check-circle(style="color: #1169E3")
-              p.mb-0 Ayudan a identificar problemas de diseño tempranamente
-            li.d-flex
-              i.fas.fa-check-circle(style="color: #1169E3")
-              p.mb-0 Sirven como documentación viva del proyecto
-        p.mb-0 El modelado UML no debe verse como un ejercicio académico, sino como una herramienta práctica que nos ayuda a visualizar y comunicar nuestras ideas antes de comenzar a escribir código. Un buen modelo UML puede prevenir malentendidos costosos y guiar el desarrollo de manera efectiva.
-    p.mb-5 En el próximo capítulo, exploraremos cómo estos modelos se traducen en implementaciones concretas, y cómo los patrones de diseño nos ayudan a resolver problemas comunes de manera elegante y probada.
-
-
-
-
-
-
+<template>
+  <div class="curso-main-container pb-3">
+    <BannerInterno></BannerInterno>
+    <div class="container tarjeta tarjeta--blanca p-4 p-md-5 mb-5">
+      <div class="titulo-principal color-acento-contenido">
+        <div class="titulo-principal__numero"><span>3</span></div>
+        <h1>Medidas de posición</h1>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 my-3 h-100 j1">
+          <img class="img-t img-a" src="@/assets/curso/temas/69.png" />
+        </div>
+        <div class="col-lg-5 my-3">
+          <div class="bg17 p-3 brad">
+            <p class="mb-0">
+              Las <b>medidas de posici&oacute;n</b> son herramientas
+              estad&iacute;sticas que permiten dividir un conjunto de datos en
+              partes iguales para identificar la ubicaci&oacute;n de un valor en
+              relaci&oacute;n con el resto del conjunto. Estas medidas son
+              fundamentales para describir la posici&oacute;n relativa de una
+              observaci&oacute;n dentro de una distribuci&oacute;n. Las
+              principales medidas de posici&oacute;n son los
+              <b>cuartiles, deciles y percentiles</b>, que permiten dividir los
+              datos en diferentes porcentajes, y tambi&eacute;n se utilizan para
+              identificar valores at&iacute;picos.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 my-3">
+          <img class="img-t img-a" src="@/assets/curso/temas/70.png" />
+        </div>
+      </div>
+      <div class="separador-container">
+        <div class="separador"></div>
+      </div>
+      <section>
+        <div id="t_3_1" class="titulo-segundo color-acento-botones">
+          <h2>3.1&#x9;Cuartiles</h2>
+        </div>
+        <p>
+          Los <b>cuartiles</b> dividen un conjunto de datos ordenados en cuatro
+          partes iguales, de modo que cada cuartil contiene el 25% de los datos.
+          Los cuartiles son particularmente &uacute;tiles para describir la
+          dispersi&oacute;n de los datos y su distribuci&oacute;n en el rango
+          intercuart&iacute;lico.
+        </p>
+        <div class="row justify-content-center">
+          <div class="col-lg-5 my-3">
+            <div class="bg10 brad p-4 h-100">
+              <p class="mb-4"><b>F&oacute;rmula:</b></p>
+              <div class="bgw p-3 brad">
+                <ul class="lista-ul--color fa-ul">
+                  <li class="mb-3">
+                    <i class="fas fa-check v1"></i
+                    ><span class="mb-0"
+                      ><b>Primer cuartil</b> (Q1): Valor que deja por debajo al
+                      25% de los datos.</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="bgw p-3 brad my-3">
+                <ul class="lista-ul--color fa-ul">
+                  <li class="mb-3">
+                    <i class="fas fa-check v1"></i
+                    ><span class="mb-0"
+                      ><b>Segundo cuartil</b> (Q2): Valor que deja por debajo al
+                      50% de los datos (es equivalente a la mediana).</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="bgw p-3 brad">
+                <ul class="lista-ul--color fa-ul">
+                  <li class="mb-3">
+                    <i class="fas fa-check v1"></i
+                    ><span class="mb-0"
+                      ><b>Tercer cuartil</b> (Q3): Valor que deja por debajo al
+                      75% de los datos.</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 my-3">
+            <div class="bg21 brad p-4 h-100">
+              <p class="mb-4"><b>Interpretaci&oacute;n:</b></p>
+              <ul class="lista-ul--color fa-ul">
+                <li class="mb-3">
+                  <i class="fas fa-check v1"></i
+                  ><span
+                    >Q1 divide el conjunto en un 25% de valores por debajo y un
+                    75% por encima.</span
+                  >
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-check v1"></i
+                  ><span
+                    >Q2, o mediana, divide el conjunto en dos partes
+                    iguales.</span
+                  >
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-check v1"></i
+                  ><span
+                    >Q3 divide el conjunto en un 75% de valores por debajo y un
+                    25% por encima.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 my-3">
+            <div class="bg14 brad p-4 h-100 j1">
+              <img class="img-t img-a" src="@/assets/curso/temas/71.svg" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="separador-container">
+        <div class="separador"></div>
+      </div>
+      <section>
+        <div id="t_3_2" class="titulo-segundo color-acento-botones">
+          <h2>3.2&#x9;Deciles</h2>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-8 my-3">
+            <p>
+              Los <b>deciles</b> dividen el conjunto de datos en diez partes
+              iguales, de modo que cada decil contiene el 10% de las
+              observaciones. Son &uacute;tiles para observar la posici&oacute;n
+              de un valor dentro de una divisi&oacute;n m&aacute;s detallada del
+              conjunto de datos que los cuartiles.
+            </p>
+            <div class="row justify-content-center align-items-center">
+              <div class="col-lg-auto my-3">
+                <img class="img-t img-a" src="@/assets/curso/temas/72.png" />
+              </div>
+              <div class="col my-3">
+                <p class="mb-4"><b>F&oacute;rmula:</b></p>
+                <ul class="lista-ul--color fa-ul">
+                  <li class="mb-3">
+                    <i class="fas fa-check v1"></i
+                    ><span
+                      ><b>Primer decil</b> (D<sub>1</sub>): Valor que deja por
+                      debajo al 10% de los datos.</span
+                    >
+                  </li>
+                  <li class="mb-3">
+                    <i class="fas fa-check v1"></i
+                    ><span
+                      ><b>Segundo decil</b> (D<sub>2</sub>): Valor que deja por
+                      debajo al 20% de los datos.</span
+                    >
+                  </li>
+                  <li class="mb-3">
+                    <i class="fas fa-check v1"></i><span> ... </span>
+                  </li>
+                  <li class="mb-3">
+                    <i class="fas fa-check v1"></i
+                    ><span
+                      ><b>Noveno decil</b> (D<sub>9</sub>): Valor que deja por
+                      debajo al 90% de los datos.</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="bg22 brad p-4 h-100">
+              <p class="mb-4"><b>Interpretaci&oacute;n:</b></p>
+              <ul class="lista-ul--color fa-ul">
+                <li class="mb-3">
+                  <i class="fas fa-check v1"></i
+                  ><span
+                    >Cada decil indica la posici&oacute;n del conjunto de datos
+                    en fracciones del 10 %, proporcionando una idea m&aacute;s
+                    granular de c&oacute;mo se distribuyen los valores.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 my-3">
+            <img class="img-t img-a" src="@/assets/curso/temas/73.png" />
+          </div>
+        </div>
+      </section>
+      <div class="separador-container">
+        <div class="separador"></div>
+      </div>
+      <section>
+        <div id="t_3_3" class="titulo-segundo color-acento-botones">
+          <h2>3.3&#x9;Percentiles</h2>
+        </div>
+        <p>
+          Los <b>percentiles</b> dividen un conjunto de datos en cien partes
+          iguales, de modo que cada percentil contiene el 1 % de las
+          observaciones. Los percentiles son ampliamente utilizados en muchos
+          campos, como la educaci&oacute;n y la salud, para determinar la
+          posici&oacute;n relativa de un individuo o una observaci&oacute;n
+          dentro de una poblaci&oacute;n.
+        </p>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-4 my-3">
+            <img class="img-t img-a" src="@/assets/curso/temas/74.png" />
+          </div>
+          <div class="col-lg-8 my-3">
+            <p class="mb-4"><b>F&oacute;rmula:</b></p>
+            <ul class="lista-ul--color fa-ul">
+              <li class="mb-3">
+                <i class="fas fa-check v1"></i
+                ><span
+                  ><b>Primer percentil (P<sub>1</sub>)</b>: Valor que deja por
+                  debajo al 1 % de los datos.</span
+                >
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-check v1"></i>
+                <p>
+                  <b>D&eacute;cimo percentil (P<sub>10</sub>)</b>: Valor que
+                  deja por debajo al 10 % de los datos.
+                </p>
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-check v1"></i
+                ><span
+                  ><b></b><b>Percentil 50 (P<sub>50</sub>):</b> Es equivalente a
+                  la mediana, ya que deja por debajo al 50 % de los datos.</span
+                >
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-check v1"></i
+                ><span
+                  ><b>Percentil 90 (P<sub>90</sub>):</b> Valor que deja por
+                  debajo al 90% de los datos.</span
+                >
+              </li>
+            </ul>
+            <div class="bg7 brad p-4 h-100">
+              <p class="mb-4">
+                <b class="text-white">Interpretaci&oacute;n:</b>
+              </p>
+              <ul class="lista-ul--color fa-ul">
+                <li class="mb-3">
+                  <i class="fas fa-check v1"></i
+                  ><span class="text-white"
+                    >El percentil proporciona informaci&oacute;n sobre la
+                    posici&oacute;n de un valor respecto a un grupo m&aacute;s
+                    amplio. Por ejemplo, si una persona se encuentra en el
+                    percentil 80 de un examen, significa que su
+                    puntuaci&oacute;n es superior a la del 80% de los
+                    participantes.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="separador-container">
+        <div class="separador"></div>
+      </div>
+      <section>
+        <div id="t_3_4" class="titulo-segundo color-acento-botones">
+          <h2>3.4&#x9;Rango intercuart&iacute;lico</h2>
+        </div>
+        <p>
+          El <b>rango intercuart&iacute;lico (IQR)</b> es una medida de
+          dispersi&oacute;n que se basa en los cuartiles y representa la
+          diferencia entre el tercer cuartil (Q3) y el primer cuartil (Q1). Es
+          &uacute;til para medir la variabilidad de la parte central de los
+          datos, eliminando el efecto de los valores extremos o at&iacute;picos.
+        </p>
+        <div class="row justify-content-center">
+          <div class="col-lg-9 my-3">
+            <div class="bg17 brad p-4 h-100">
+              <p class="mb-4"><b>F&oacute;rmula:</b></p>
+              <img
+                class="img-t mb-4"
+                src="@/assets/curso/temas/76.png"
+                alt="La imagen proporciona información educativa sobre el rango intercuartílico (IQR). Se presenta la fórmula del rango: IQR=Q3 - Q1, donde Q3Q_3Q3  representa el tercer cuartil y Q1Q_1Q1 el primer cuartil. "
+              />
+              <p class="mb-4"><b>Interpretaci&oacute;n:</b></p>
+              <ul class="lista-ul--color fa-ul">
+                <li class="mb-3">
+                  <i class="fas fa-check v1"></i
+                  ><span
+                    >El rango intercuart&iacute;lico mide la dispersi&oacute;n
+                    del 50% central de los datos, lo que proporciona una
+                    visi&oacute;n m&aacute;s clara de c&oacute;mo est&aacute;n
+                    distribuidos los valores centrales del conjunto.</span
+                  >
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-check v1"></i
+                  ><span
+                    >Es menos sensible a los valores extremos que otras medidas
+                    de dispersi&oacute;n, como la desviaci&oacute;n
+                    est&aacute;ndar.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-7 my-3">
+            <div class="bgw brad p-4 h-100 j1">
+              <img class="img-t img-a" src="@/assets/curso/temas/75.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
 </template>
 
 <script>

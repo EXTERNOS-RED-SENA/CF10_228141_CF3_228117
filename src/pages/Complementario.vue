@@ -59,88 +59,46 @@ export default {
     complementarioData() {
       return [
         {
-          tema: '1. Fundamentos de la Programación Orientada a Objetos',
+          tema: 'Introducción a la estadística',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023, mayo 10). <em>Programación orientada a objetos</em>.',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2023c, septiembre 20). <i>Introducción a la estadística.</i>',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=TE0TKx9dEtI',
+          link: 'https://www.youtube.com/watch?v=wMCDkknpUVw ',
         },
         {
-          tema: '1. Fundamentos de la Programación Orientada a Objetos',
+          tema: 'Introducción a la probabilidad',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2021, julio 1). Abstracción: <em>Paradigma orientado a objetos.</em> ',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2023a, marzo 24). <i>Introducción a la probabilidad.</i>',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=91N3L3mEGqo',
+          link: 'https://www.youtube.com/watch?v=rmx4jxS81vY',
         },
         {
-          tema: '2. Principios de diseño orientado a objetos',
+          tema: 'Muestreo, distribución de medias muestrales',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2021, julio 1). <em>Clases y objetos.</em>',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2022, 11 mayo). <i>Muestreo, distribución de medias muestrales.</i>',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=gVH6zEnCY1c',
+          link: 'https://www.youtube.com/watch?v=5VK7hvyj760',
         },
         {
-          tema: '2. Principios de diseño orientado a objetos',
+          tema: 'Principales elementos de la estadística',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2020, 23 junio). <em>Jerarquía.</em>',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2022b, octubre 26). <i>Principales elementos de la estadística.</i>',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=39VJptW7jQo',
+          link: 'https://www.youtube.com/watch?v=Ad5gxB9PhKQ',
         },
         {
-          tema: '3. Modelado y diseño UML',
+          tema: 'Principios básicos en el análisis de datos',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2024, 3 abril). <em>Descarga e instalación de herramienta CASE MySQL Workbench.</em>',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2023b, marzo 24). <i>Principios básicos en el análisis de datos.</i>',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=nQ0FWBJbbi0',
+          link: 'https://www.youtube.com/watch?v=bprDNbxNyo4',
         },
         {
-          tema: '3. Modelado y diseño UML',
+          tema: 'Teoría de probabilidades',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023, marzo 27). <em>Diagramas de Secuencia UML.</em>',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2024, 18 junio). <i>Teoría de probabilidades.</i>',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=HKbL1bWenIY',
-        },
-        {
-          tema: '3. Modelado y diseño UML',
-          referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023, marzo 26). <em>UML.</em> ',
-          tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=gVt_zU_E8wY',
-        },
-        {
-          tema: '3. Modelado y diseño UML',
-          referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023, marzo 25). <em>Diagrama de casos de uso.</em>',
-          tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=yQSmLldIpNo',
-        },
-        {
-          tema: '3. Modelado y diseño UML',
-          referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2021, julio 1). <em>Diagramas de clase: StarUML.</em>',
-          tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=fPbUqr49DYU',
-        },
-        {
-          tema: '3. Modelado y diseño UML',
-          referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2021, noviembre 24). <em>Diagrama de componentes.</em>',
-          tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=sp8APOAyTfk',
-        },
-        {
-          tema: '4. Patrones y arquitectura orientada a objetos',
-          referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2021, diciembre 10). <em>Patrones de diseño de software.</em>',
-          tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=ZufBcrlUqak',
-        },
-        {
-          tema: '4. Patrones y arquitectura orientada a objetos',
-          referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2021, noviembre 26). <em>Diseño de patrones de software: introducción.</em>',
-          tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=sQHRHhsRUoA ',
+          link: 'https://www.youtube.com/watch?v=m-UUs_SwA9k',
         },
       ]
     },

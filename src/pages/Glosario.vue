@@ -37,79 +37,159 @@ export default {
     return {
       glosarioData: [
         {
-          termino: 'Abstracción',
+          termino: 'Amplitud de variación',
           significado:
-            'Proceso de identificar características esenciales de un objeto, ignorando los detalles no relevantes',
+            'Diferencia entre el valor máximo y mínimo de un conjunto de datos, utilizada como medida básica de dispersión.',
         },
         {
-          termino: 'Clase',
+          termino: 'Coeficiente de variación',
           significado:
-            'Plantilla o modelo que define las propiedades y comportamientos de un tipo de objeto',
+            'Medida de dispersión relativa que permite comparar la variabilidad de dos o más conjuntos de datos con unidades diferentes.',
         },
         {
-          termino: 'Composición',
+          termino: 'Cuartiles',
           significado:
-            'Relación fuerte entre clases donde una clase contiene a otra y es responsable de su ciclo de vida',
+            'Valores que dividen un conjunto de datos ordenado en cuatro partes iguales, cada una representando el 25% de la distribución.',
         },
         {
-          termino: 'Encapsulamiento',
+          termino: 'Cálculo de probabilidades',
           significado:
-            'Principio que oculta los detalles internos de una clase y expone solo lo necesario',
+            'Métodos y fórmulas utilizados para determinar la probabilidad de ocurrencia de un evento en un espacio muestral.',
         },
         {
-          termino: 'Herencia',
+          termino: 'Deciles',
           significado:
-            'Mecanismo que permite a una clase heredar propiedades y métodos de otra clase',
+            'Valores que dividen un conjunto de datos en diez partes iguales, cada una representando el 10% de la distribución.',
         },
         {
-          termino: 'Interfaz',
+          termino: 'Desviación estándar',
           significado:
-            'Contrato que especifica qué métodos debe implementar una clase',
+            'Medida de dispersión que indica cuánto se alejan los datos en promedio de la media; calcula la variabilidad en una distribución.',
         },
         {
-          termino: 'Método',
+          termino: 'Desviación media',
           significado:
-            'Función que define el comportamiento de los objetos de una clase',
+            'Promedio de las diferencias absolutas de cada valor con respecto a la media, utilizada para medir la dispersión de los datos.',
         },
         {
-          termino: 'Objeto',
+          termino: 'Distribución de probabilidades',
           significado:
-            'Instancia específica de una clase que contiene datos y comportamiento',
+            'Distribución que describe cómo se asignan las probabilidades a los diferentes valores de una variable aleatoria.',
         },
         {
-          termino: 'Patrón de Diseño',
+          termino: 'Distribución normal',
           significado:
-            'Solución reutilizable a un problema común en el diseño de <em>software</em>',
+            'Distribución de probabilidad simétrica en forma de campana que describe cómo se distribuyen los datos alrededor de la media.',
         },
         {
-          termino: 'Polimorfismo',
+          termino: 'Distribución <em>t-student</em>',
           significado:
-            'Capacidad de un objeto para tomar diferentes formas y responder de manera distinta al mismo mensaje',
+            'Distribución de probabilidad utilizada en inferencia estadística, especialmente cuando el tamaño de la muestra es pequeño.',
         },
         {
-          termino: 'Principios SOLID',
+          termino: 'Elección del gráfico adecuado',
           significado:
-            'Conjunto de cinco principios fundamentales para el diseño orientado a objetos',
+            'Proceso de seleccionar el tipo de gráfico más apropiado según el tipo de datos y el objetivo del análisis.',
         },
         {
-          termino: 'Refactorización',
+          termino: 'Informe estadístico',
           significado:
-            'Proceso de reestructurar código existente sin cambiar su comportamiento externo',
+            'Documento que presenta los resultados de un análisis estadístico de forma organizada, con conclusiones y recomendaciones.',
         },
         {
-          termino: 'UML',
+          termino: 'Interpretación de gráficos',
           significado:
-            'Lenguaje Unificado de Modelado, utilizado para visualizar y documentar sistemas de <em>software</em>',
+            'Proceso de analizar gráficos estadísticos para extraer información y comprender patrones o tendencias en los datos.',
         },
         {
-          termino: 'Visibilidad',
+          termino: 'Media aritmética',
           significado:
-            'Nivel de acceso que tienen otros objetos a los miembros de una clase',
+            'Promedio de un conjunto de datos, calculado sumando todos los valores y dividiendo entre la cantidad de observaciones.',
         },
         {
-          termino: 'CASE',
+          termino: 'Media geométrica',
           significado:
-            'Herramientas de Ingeniería de <em>Software</em> Asistida por Computadora para el diseño y modelado',
+            'Media calculada multiplicando todos los valores y extrayendo la raíz enésima (según el número de valores), utilizada en datos con crecimiento proporcional.',
+        },
+        {
+          termino: 'Media ponderada',
+          significado:
+            'Promedio que considera la importancia o peso de cada valor en el conjunto de datos, otorgando mayor relevancia a ciertos valores.',
+        },
+        {
+          termino: 'Media recortada',
+          significado:
+            'Media calculada excluyendo los valores extremos (superiores e inferiores) de un conjunto de datos para reducir el impacto de los valores atípicos.',
+        },
+        {
+          termino: 'Mediana',
+          significado:
+            'Valor central de un conjunto de datos ordenado; divide la distribución en dos partes iguales.',
+        },
+        {
+          termino: 'Moda',
+          significado:
+            'Valor o categoría que aparece con mayor frecuencia en un conjunto de datos; útil en datos cualitativos y cuantitativos.',
+        },
+        {
+          termino: 'Percentiles',
+          significado:
+            'Valores que dividen un conjunto de datos en 100 partes iguales; indican el porcentaje de datos que se encuentra por debajo de un valor específico.',
+        },
+        {
+          termino: 'Probabilidades marginales',
+          significado:
+            'Probabilidades de ocurrencia de un solo evento en un espacio muestral, sin considerar la ocurrencia de otros eventos.',
+        },
+        {
+          termino: 'Prueba de valor z',
+          significado:
+            'Prueba estadística para evaluar si una muestra pertenece a una población conocida o para comparar dos medias de poblaciones cuando se conoce la desviación estándar.',
+        },
+        {
+          termino: 'Rango',
+          significado:
+            'Diferencia entre el valor máximo y mínimo en un conjunto de datos; medida sencilla de dispersión.',
+        },
+        {
+          termino: 'Rango intercuartílico',
+          significado:
+            'Diferencia entre el tercer y el primer cuartil de un conjunto de datos; mide la dispersión en la parte central de la distribución.',
+        },
+        {
+          termino: 'Regla de la adición',
+          significado:
+            'Regla de probabilidad que permite calcular la probabilidad de que ocurra al menos uno de varios eventos mutuamente excluyentes.',
+        },
+        {
+          termino: 'Regla de la multiplicación',
+          significado:
+            'Regla de probabilidad que permite calcular la probabilidad conjunta de que ocurran dos o más eventos independientes.',
+        },
+        {
+          termino: 'Teorema de Bayes',
+          significado:
+            'Teorema que permite actualizar la probabilidad de un evento con base en nueva evidencia o información; utilizado en inferencia estadística.',
+        },
+        {
+          termino: 'Trimedia',
+          significado:
+            'Medida de tendencia central calculada a partir de los cuartiles, que combina la mediana con otros valores para una representación robusta de los datos.',
+        },
+        {
+          termino: 'Tipos de gráficos',
+          significado:
+            'Diferentes formas de representación visual de datos, como histogramas, gráficos de barras y gráficos circulares, cada uno adecuado para tipos específicos de datos.',
+        },
+        {
+          termino: 'Varianza',
+          significado:
+            'Medida de dispersión que indica la variabilidad de los datos respecto a la media; es el cuadrado de la desviación estándar.',
+        },
+        {
+          termino: 'Visualización de datos',
+          significado:
+            'Representación gráfica de los datos para facilitar la interpretación de patrones y tendencias en los análisis estadísticos.',
         },
       ],
     }

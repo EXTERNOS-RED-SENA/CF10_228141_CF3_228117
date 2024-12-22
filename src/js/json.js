@@ -15,23 +15,43 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Fundamentos de la Programación Orientada a Objetos	',
+        titulo: 'Medidas de tendencia central',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Introducción al paradigma orientado a objetos	',
+            titulo: 'Media aritmética',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Clases y objetos: conceptos básicos	',
+            titulo: 'Mediana',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: 'Atributos, métodos y encapsulamiento',
+            titulo: 'Moda',
             hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Media geométrica',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Media ponderada',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Media recortada',
+            hash: 't_1_6',
+          },
+          {
+            numero: '1.7',
+            titulo: 'Trimedia',
+            hash: 't_1_7',
           },
         ],
       },
@@ -39,74 +59,191 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Principios de diseño orientado a objetos	',
+        titulo: 'Medidas de dispersión',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Herencia y polimorfismo	',
+            titulo: 'Rango',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Composición y agregación',
+            titulo: 'Desviación media',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: 'Principios SOLID en POO	',
+            titulo: 'Varianza',
             hash: 't_2_3',
           },
           {
             numero: '2.4',
-            titulo: 'Del diseño a la implementación: consideraciones prácticas	',
+            titulo: 'Desviación estándar',
             hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Coeficiente de variación',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Rango intercuartílico',
+            hash: 't_2_6',
+          },
+          {
+            numero: '2.7',
+            titulo: 'Amplitud de variación',
+            hash: 't_2_7',
+          },
+          {
+            numero: '2.8',
+            titulo: 'Coeficiente de variación',
+            hash: 't_2_8',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Modelado y diseño UML	',
+        titulo: 'Medidas de posición',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Diagramas de clases UML',
+            titulo: 'Cuartiles',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
-            titulo: 'Relaciones entre clases',
+            titulo: 'Deciles',
             hash: 't_3_2',
           },
           {
             numero: '3.3',
-            titulo: 'Herramientas CASE para modelado',
+            titulo: 'Percentiles',
             hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Rango intercuartílico',
+            hash: 't_3_4',
           },
         ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Patrones y arquitectura orientada a objetos',
+        titulo: 'Probabilidades',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '4.1',
-            titulo: 'Patrones de diseño fundamentales',
+            titulo: 'Cálculo de probabilidades',
             hash: 't_4_1',
           },
           {
             numero: '4.2',
-            titulo: 'Arquitectura limpia con POO',
+            titulo: 'Probabilidades marginales',
             hash: 't_4_2',
           },
           {
             numero: '4.3',
-            titulo: 'Implementación práctica de modelos',
+            titulo: 'Regla de la adición',
             hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Regla de la multiplicación',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Teorema de Bayes',
+            hash: 't_4_5',
+          },
+          {
+            numero: '4.6',
+            titulo: 'Distribución normal',
+            hash: 't_4_6',
+          },
+          {
+            numero: '4.7',
+            titulo: 'Distribución <em>t-student</em>',
+            hash: 't_4_7',
+          },
+          {
+            numero: '4.8',
+            titulo: 'Prueba de valor z',
+            hash: 't_4_8',
+          },
+          {
+            numero: '4.9',
+            titulo:
+              'Aplicaciones de la probabilidad en el análisis estadístico',
+            hash: 't_4_9',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Gráficos estadísticos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Tipos de gráficos',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Elección del gráfico adecuado según el tipo de datos',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Interpretación de gráficos estadísticos',
+            hash: 't_5_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Informes estadísticos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Estructura de un informe estadístico',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Presentación de datos en un informe',
+            hash: 't_6_2',
+          },
+          {
+            numero: '6.3',
+            titulo: 'Lenguaje claro y conciso',
+            hash: 't_6_3',
+          },
+          {
+            numero: '6.4',
+            titulo: 'Tipos de informes estadísticos',
+            hash: 't_6_4',
+          },
+          {
+            numero: '6.5',
+            titulo: 'Elaboración de conclusiones y recomendaciones',
+            hash: 't_6_5',
+          },
+          {
+            numero: '6.6',
+            titulo: 'Errores comunes en los informes estadísticos',
+            hash: 't_6_6',
           },
         ],
       },
@@ -142,7 +279,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228117_CF03_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -157,24 +294,11 @@ export default {
     ],
   },
   global: {
-    Name: 'Programación orientada a objetos: conceptos y modelado',
+    Name: 'Análisis estadístico de datos y generación de gráficos',
     Description:
-      'Este componente formativo aborda los fundamentos y prácticas de la programación orientada a objetos, explorando desde conceptos básicos hasta patrones de diseño avanzados. Cubre principios SOLID, modelado UML y arquitectura de software, proporcionando las herramientas necesarias para diseñar y desarrollar sistemas robustos y mantenibles bajo el paradigma orientado a objetos.',
+      'Este componente explora los conceptos fundamentales y las herramientas necesarias para el análisis estadístico, cubriendo desde las medidas de tendencia central y dispersión hasta las probabilidades y gráficos estadísticos. Abarca técnicas precisas para calcular medias, varianza y coeficientes, y profundiza en la interpretación de gráficos y la redacción de informes estadísticos efectivos. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/a1.png'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/a2.png'),
-      },
-      {
-        clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/portada/a3.png'),
-      },
-    ],
+    imagenesDecorativasBanner: [],
   },
 }
