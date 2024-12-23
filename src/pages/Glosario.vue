@@ -59,7 +59,7 @@ export default {
         {
           termino: 'Deciles',
           significado:
-            'Valores que dividen un conjunto de datos en diez partes iguales, cada una representando el 10% de la distribución.',
+            'Valores que dividen un conjunto de datos en diez partes iguales, cada una representando el 10 % de la distribución.',
         },
         {
           termino: 'Desviación estándar',

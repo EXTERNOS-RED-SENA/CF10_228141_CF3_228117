@@ -25,16 +25,18 @@
         .titulo-sexto.color-acento-contenido.aos-init.mt-5
           h5 Tabla 1. 
           span Tipos de gr&aacute;ficos
-        table.table
-          thead
+        
+        table.table.tabla-a.w-100.d-block
+          caption Fuente: OIT, 2024.
+          thead.border-0
             tr.text-center
-              th.bg-head.py-3 Gr&aacute;fico
-              th.bg-head.py-3 Descripci&oacute;n
-              th.bg-head.py-3 Caracter&iacute;sticas
-              th.bg-head.py-3 Aplicaciones
+              th(style="background-color: #3ba935") Gr&aacute;fico
+              th(style="background-color: #3ba935") Descripci&oacute;n
+              th(style="background-color: #3ba935") Caracter&iacute;sticas
+              th(style="background-color: #3ba935") Aplicaciones
           tbody
             tr
-              th(rowspan='3') Histograma 
+              td(rowspan='3') Histograma 
               td(rowspan='3')
                 | Representaci&oacute;n gr&aacute;fica de la distribuci&oacute;n de una variable cuantitativa, donde la altura de cada barra representa la frecuencia en intervalos o clases.
               td  - Para variables cuantitativas (discretas o continuas).
@@ -78,7 +80,7 @@
                 br
                 |                             - &Uacute;til para detectar patrones, tendencias y valores at&iacute;picos en datos num&eacute;ricos.
             tr
-              th(rowspan='3') Gr&aacute;fico circular 
+              td(rowspan='3') Gr&aacute;fico circular 
               td(rowspan='3')
                 | Tambi&eacute;n llamado gr&aacute;fico de pastel muestra la proporci&oacute;n o porcentaje de cada categor&iacute;a respecto al total mediante sectores proporcionales.
               td  - Para datos cualitativos nominales.
@@ -90,7 +92,7 @@
               td  - No adecuado para categor&iacute;as con peque&ntilde;as diferencias en proporciones.
               td
             tr
-              th(rowspan='3') Pol&iacute;gono de frecuencias
+              td(rowspan='3') Pol&iacute;gono de frecuencias
               td(rowspan='3')
                 | Gr&aacute;fico de l&iacute;neas que conecta los puntos medios de los intervalos de un histograma, &uacute;til para observar la forma de la distribuci&oacute;n de los datos de manera continua y comparar diferentes conjuntos de datos.
               td  - Para variables cuantitativas continuas.
@@ -102,7 +104,7 @@
               td  - Puede superponerse con otros pol&iacute;gonos para comparar distribuciones.
               td
             tr
-              th(rowspan='3') Ojiva 
+              td(rowspan='3') Ojiva 
               td(rowspan='3')
                 | Representaci&oacute;n gr&aacute;fica de la frecuencia acumulada o relativa acumulada de los datos, mostrando c&oacute;mo se acumulan las frecuencias al aumentar los valores de la variable.
               td  - Para variables cuantitativas.
@@ -114,7 +116,7 @@
               td  - Permite calcular percentiles y cuartiles visualmente.
               td
             tr
-              th(rowspan='3') Diagrama de dispersi&oacute;n
+              td(rowspan='3') Diagrama de dispersi&oacute;n
               td(rowspan='3')
                 | Muestra la relaci&oacute;n entre dos variables cuantitativas mediante puntos (x, y), &uacute;til para observar correlaciones o tendencias entre las variables.
               td  - Para relaciones entre dos variables cuantitativas.
@@ -126,7 +128,7 @@
               td  - &Uacute;til para detectar relaciones directas, inversas o la ausencia de relaci&oacute;n.
               td
             tr
-              th(rowspan='3') Boxplot (Diagrama de caja y bigotes) 
+              td(rowspan='3') Boxplot (Diagrama de caja y bigotes) 
               td(rowspan='3')
                 | Gr&aacute;fico que representa la dispersi&oacute;n de un conjunto de datos, mostrando el rango intercuart&iacute;lico, la mediana y los valores at&iacute;picos mediante una caja y &quot;bigotes&quot;.
               td  - Resume la distribuci&oacute;n de datos y muestra valores at&iacute;picos.
@@ -137,8 +139,7 @@
             tr
               td  - Permite comparar distribuciones entre grupos.
               td
-        figcaption.border.border-secundary.border-start-0.border-end-0.border-2.mt-2
-          p.text-center.text-dark.mb-0 Fuente: OIT, 2024.
+        
       .separador-container
         .separador
       section

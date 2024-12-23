@@ -37,27 +37,15 @@
             p.mb-3
               b Donde:
               ul.lista-ul--color.fa-ul
-                  li.mb-3
+                  li.mb-3.d-flex
                     i.fas.fa-check.v1            
-                    .row.justify-content-center.align-items-center
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/6.png' alt='')
-                      .col
-                        p.mb-0 es la medida aritm&eacute;tica.            
+                    p.mb-0 #[span.fst-italic(style='font-size: 20px').me-3 x̅] es la medida aritm&eacute;tica.            
+                  li.mb-3
+                    i.fas.fa-check.v1.d-flex
+                    p.mb-0 #[span.fst-italic.me-3(style='font-size: 20px') X#[sub i] ]representa cada uno de los valores del conjunto de datos.
                   li.mb-3
                     i.fas.fa-check.v1
-                    .row.justify-content-center.align-items-center    
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/7.png' alt='')
-                      .col
-                        p.mb-0 representa cada uno de los valores del conjunto de datos.
-                  li.mb-3
-                    i.fas.fa-check.v1
-                    .row.justify-content-center.align-items-center    
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/8.png' alt='')
-                      .col
-                        p.mb-0 es el n&uacute;mero total de observaciones.
+                    p #[span.fst-italic(style='font-size: 20px').me-3 n] es el n&uacute;mero total de observaciones.
           .bg9.brad.p-3.h-100
             p.mb-3
               b Propiedades
@@ -82,7 +70,7 @@
             p.mb-0
               | La 
               b mediana
-              |  es el valor central de un conjunto de datos ordenado de menor a mayor. Divide el conjunto de datos en dos partes iguales, de tal manera que el 50% de las observaciones son menores o iguales a la mediana, y el 50% son mayores o iguales a ella. A diferencia de la media, la mediana no se ve afectada por valores at&iacute;picos, lo que la convierte en una medida m&aacute;s robusta en distribuciones asim&eacute;tricas.
+              |  es el valor central de un conjunto de datos ordenado de menor a mayor. Divide el conjunto de datos en dos partes iguales, de tal manera que el 50 % de las observaciones son menores o iguales a la mediana, y el 50 % son mayores o iguales a ella. A diferencia de la media, la mediana no se ve afectada por valores at&iacute;picos, lo que la convierte en una medida m&aacute;s robusta en distribuciones asim&eacute;tricas.
             p
         p.mb-5
           .row.justify-content-center
@@ -177,28 +165,13 @@
                 ul.lista-ul--color.fa-ul
                   li.mb-3
                     i.fas.fa-check.v1
-                    .row.justify-content-center.align-items-center
-                    
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/16.png' alt='')
-                      .col
-                        p.mb-0 es la media geom&eacute;trica.
+                    p.mb-0 #[span.fst-italic(style='font-size: 20px').me-3 x̅] es la medida aritm&eacute;tica.            
+                  li.mb-3
+                    i.fas.fa-check.v1.d-flex
+                    p.mb-0 #[span.fst-italic.me-3(style='font-size: 20px') X#[sub i] ]representa cada valor en el conjunto de datos.
                   li.mb-3
                     i.fas.fa-check.v1
-                    .row.justify-content-center.align-items-center
-                    
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/17.png' alt='')
-                      .col
-                        p.mb-0  representa cada valor en el conjunto de datos.
-                  li.mb-3
-                    i.fas.fa-check.v1
-                    .row.justify-content-center.align-items-center
-                    
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/18.png' alt='')
-                      .col
-                        p.mb-0 es el n&uacute;mero total de observaciones. 
+                    p #[span.fst-italic(style='font-size: 20px').me-3 η] es el n&uacute;mero total de observaciones. 
               p.mb-4
                 b Propiedades:
               ul.lista-ul--color.fa-ul
@@ -230,29 +203,14 @@
                 ul.lista-ul--color.fa-ul
                   li.mb-3
                     i.fas.fa-check.v1
-                    .row.justify-content-center.align-items-center
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/21.png' alt='')
-                      .col
-                        p.mb-0.text-white es la media ponderada.
+                    p.mb-0.text-white  #[span.fst-italic x̅#[sub p]] es la media ponderada.
                   li
                     i.fas.fa-check.v1
-                    .row.justify-content-center.align-items-center
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/22.png' alt='')
-                      .col
-                        p.mb-0.text-white  es el peso asignado al valor
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/23.png' alt='')
-                  li.mb-3
-                    i
+                    p.mb-0.text-white #[span.fst-italic W#[sub i]]  es el peso asignado al valor #[span.fst-italic X#[sub i]]
+                  
                   li
                     i.fas.fa-check.v1
-                    .row.justify-content-center.align-items-center
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/24.png' alt='')
-                      .col
-                        p.mb-0.text-white es el n&uacute;mero total de observaciones. 
+                    p.mb-0.text-white #[span.fst-italic n] es el n&uacute;mero total de observaciones. 
           .col-lg-8.my-3
             img.img-a.img-t.mb-4(src='@/assets/curso/temas/19.png' alt='')
             div
@@ -331,26 +289,19 @@
           .col-lg-7.my-3
             div
               h5  Formula: 
-              img.img-t.mb-4(src='@/assets/curso/temas/30.png')
+              math.h2.mb-4.fw-normal( xmlns="http://www.w3.org/1998/Math/MathML") 
+                <mi>T</mi><mi>r</mi><mi>i</mi><mi>m</mi><mi>e</mi><mi>d</mi><mi>i</mi><mi>a</mi><mo>&#xA0;</mo><mo>=</mo><mfrac><mrow><msub><mi>Q</mi><mn>1</mn></msub><mo>+</mo><mn>2</mn><mi>M</mi><mi>e</mi><mi>d</mi><mi>i</mi><mi>a</mi><mi>n</mi><mi>a</mi><mo>+</mo><msub><mi>Q</mi><mn>3</mn></msub></mrow><mn>4</mn></mfrac>
               div
                 p.mb-3
                   b Donde:
                 ul.lista-ul--color.fa-ul
                   li.mb-3
                     i.fas.fa-check.v1
-                    .row.justify-content-center.align-items-center
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/31.png' alt='')
-                      .col
-                        p.mb-0
-                          | es el primer cuartil (25% de los datos por debajo).
+                    p.mb-0
+                      | #[span.fst-italic Q#[sub 1]] es el primer cuartil (25 % de los datos por debajo).
                   li.mb-3
                     i.fas.fa-check.v1
-                    .row.justify-content-center.align-items-center
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/32.png' alt='')
-                      .col
-                        p.mb-0  es el tercer cuartil (75% de los datos por debajo).
+                    p.mb-0 #[span.fst-italic Q#[sub 3]]  es el tercer cuartil (75 % de los datos por debajo).
                   li.mb-3
                     i.fas.fa-check.v1
                     span.mb-0 La mediana divide el conjunto de datos en dos mitades. 

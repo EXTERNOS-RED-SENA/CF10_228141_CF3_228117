@@ -39,25 +39,19 @@
             img.img-t.img-a(src='@/assets/curso/temas/36.png')
           .col-lg-7.my-3
             h5  Formula:
-            img.img-t.mb-4(src='@/assets/curso/temas/37.png')
+            .p-3.color-primario--borde.tarjeta.d-inline-block.bg-transparent
+              math.h2.fw-normal.mb-0(xmlns="http://www.w3.org/1998/Math/MathML")
+                <mi>R</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><msub><mi>x</mi><mrow><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>-</mo><msub><mi>x</mi><mrow><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub>
             .brad.p-3.h-100
               p.mb-3
                 b Donde:
               ul.lista-ul--color.fa-ul
-                li.mb-3
+                li.mb-3.d-flex
                   i.fas.fa-check.v1 
-                  .row.justify-content-center.align-items-center
-                    .col-auto
-                      img.img-a.img-t(src='@/assets/curso/temas/38.png' alt='')
-                    .col
-                      p.mb-0 es el valor m&aacute;ximo del conjunto de datos.
-                li.mb-3
+                  p.mb-0 #[em(style='font-size: 20px') X#[sub max]] es el valor m&aacute;ximo del conjunto de datos.
+                li.mb-3.d-flex
                   i.fas.fa-check.v1 
-                  .row.justify-content-center.align-items-center
-                    .col-auto
-                      img.img-a.img-t(src='@/assets/curso/temas/39.png' alt='')
-                    .col
-                      p.mb-0 es el valor m&iacute;nimo del conjunto de datos.
+                  p.mb-0 #[em(style='font-size: 20px') X#[sub min]] es el valor m&iacute;nimo del conjunto de datos.
             .bg7.brad.p-3.h-100
               p.mb-3
                 b.text-white Propiedades
@@ -83,33 +77,23 @@
           .col-lg-4.my-3
             img.img-t.img-a(src='@/assets/curso/temas/42.png')
           .col-lg-8.my-3
-            h5  Formula: 
-            img.img-t.mb-4(src='@/assets/curso/temas/43.png')
+            h5  Formula:
+            .p-3.color-primario--borde.tarjeta.d-inline-block.bg-transparent
+              math.h2.fw-normal.mb-0(xmlns="http://www.w3.org/1998/Math/MathML") 
+                <mi>D</mi><mi>e</mi><mi>s</mi><mi>v</mi><mi>i</mi><mi>a</mi><mi>c</mi><mi>i</mi><mi>&#xf3;</mi><mi>n</mi><mo>&#xA0;</mo><mi>m</mi><mi>e</mi><mi>d</mi><mi>i</mi><mi>a</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><msubsup><mo>&#x2211;</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn><mfenced open="|" close="|"><mtable><mtr><mtd><msub><mi>x</mi><mi>i</mi></msub><mo>-</mo></mtd><mtd><mover accent='true'><mi>x</mi><mo>&#x2212;</mo></mover></mtd></mtr></mtable></mfenced></mrow><mi>n</mi></msubsup><mi>n</mi></mfrac>
             .brad.p-3.h-100
               p.mb-3
                 b Donde:
               ul.lista-ul--color.fa-ul
                 li.mb-3
                   i.fas.fa-check.v1 
-                  .row.justify-content-center.align-items-center
-                    .col-auto
-                      img.img-a.img-t(src='@/assets/curso/temas/44.png' alt='')
-                    .col
-                      p.mb-0 es cada valor del conjunto de datos.
+                  p.mb-0 #[span.fst-italic(style='font-size: 20px').me-3 X #[sub i]]  es cada valor del conjunto de datos.
                 li.mb-3
                   i.fas.fa-check.v1 
-                  .row.justify-content-center.align-items-center
-                    .col-auto
-                      img.img-a.img-t(src='@/assets/curso/temas/45.png' alt='')
-                    .col
-                      p.mb-0 es la media aritm&eacute;tica.
+                  p.mb-0 #[span.fst-italic(style='font-size: 20px').me-3 x̅] es la media aritm&eacute;tica.
                 li.mb-3
                   i.fas.fa-check.v1 
-                  .row.justify-content-center.align-items-center
-                    .col-auto
-                      img.img-a.img-t(src='@/assets/curso/temas/46.png' alt='')
-                    .col
-                      p.mb-0 es el n&uacute;mero total de observaciones.
+                  p.mb-0 #[span.fst-italic(style='font-size: 20px').me-3 n] es el n&uacute;mero total de observaciones.
             .bgi.brad.p-3.h-100
               p.mb-3
                 b Propiedades
@@ -132,35 +116,26 @@
           b varianza
           |  es una medida que refleja el promedio de los cuadrados de las desviaciones de cada valor respecto a la media. La varianza indica qu&eacute; tan dispersos est&aacute;n los datos, y es una de las medidas m&aacute;s importantes en la estad&iacute;stica inferencial.
         .row.justify-content-center.align-items-center
-          .col-lg-4.my-3.bg17.p-3.brad
-            h5  Formula: 
-            img.img-t.mb-4(src='@/assets/curso/temas/47.png')
-            .brad.p-3.h-100
-              p.mb-3
-                b Donde:
-              ul.lista-ul--color.fa-ul
-                li.mb-3
-                  i.fas.fa-check.v1 
-                  .row.justify-content-center.align-items-center
-                    .col-auto
-                      img.img-a.img-t(src='@/assets/curso/temas/48.png' alt='')
-                    .col
-                      p.mb-0 es cada valor del conjunto de datos.
-                li.mb-3
-                  i.fas.fa-check.v1 
-                  .row.justify-content-center.align-items-center
-                    .col-auto
-                      img.img-a.img-t(src='@/assets/curso/temas/49.png' alt='')
-                    .col
-                      p.mb-0 es la media aritm&eacute;tica.
-                li.mb-3
-                  i.fas.fa-check.v1 
-                  .row.justify-content-center.align-items-center
-                    .col-auto
-                      img.img-a.img-t(src='@/assets/curso/temas/50.png' alt='')
-                    .col
-                      p.mb-0 es el n&uacute;mero total de observaciones.
-          .col-lg-5.my-3
+          .col-lg-4
+            .p-4(style="background-color: #e5e9eb ")
+              h5  Formula: 
+              .p-3.color-primario--borde.tarjeta.d-inline-block.bg-transparent.overflow-auto
+                math.h4.fw-normal.mb-0(xmlns="http://www.w3.org/1998/Math/MathML") 
+                  <mi>V</mi><mi>a</mi><mi>r</mi><mi>i</mi><mi>a</mi><mi>n</mi><mi>z</mi><mi>a</mi><mo>&#xA0;</mo><mo>=</mo><msup><mi>&#x3c3;</mi><mn>2</mn></msup><mo>=</mo><mo>&#xA0;</mo><mfrac><mrow><msubsup><mo>&#x2211;</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn><mfenced><mrow><msub><mi>x</mi><mi>i</mi></msub><mo>-</mo><mover accent='true'><mi>x</mi><mo>&#x2212;</mo></mover></mrow></mfenced></mrow><mi>n</mi></msubsup><mn>2</mn></mrow><mi>n</mi></mfrac>
+              .p-3
+                p.mb-3
+                  b Donde:
+                ul.lista-ul--color.fa-ul
+                  li.mb-3
+                    i.fas.fa-check.v1 
+                    p.mb-0 #[span.fst-italic(style='font-size: 20px').me-3 X #[sub i]] es cada valor del conjunto de datos.
+                  li.mb-3
+                    i.fas.fa-check.v1 
+                    p.mb-0 #[span.fst-italic(style='font-size: 20px').me-3 x̅] es la media aritm&eacute;tica.
+                  li.mb-3
+                    i.fas.fa-check.v1 
+                    p.mb-0 #[span.fst-italic(style='font-size: 20px').me-3 n] es el n&uacute;mero total de observaciones.
+          .col-lg-5
             div
               p.mb-3
                 b Propiedades
@@ -193,39 +168,25 @@
           .col-lg-5.my-3
             .bg17.p-3.brad.h-100
               h5  Formula: 
-              img.img-t.mb-4(src='@/assets/curso/temas/53.png')
+              .p-4.color-primario--borde.bg-white.tarjeta.d-inline-block
+                math.h2.fw-normal.mb-0(xmlns="http://www.w3.org/1998/Math/MathML") 
+                  <mi>&#x3c3;</mi><mo>=</mo><mo>&#xA0;</mo><msqrt><mfrac><mrow><msubsup><mo>&#x2211;</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn><mfenced><mrow><msub><mi>x</mi><mi>i</mi></msub><mo>-</mo><mover accent='true'><mi>x</mi><mo>&#x2212;</mo></mover></mrow></mfenced></mrow><mi>n</mi></msubsup><mn>2</mn></mrow><mi>n</mi></mfrac></msqrt>
               .brad.p-3.h-100
                 p.mb-3
                   b Donde:
                 ul.lista-ul--color.fa-ul
                   li.mb-3
                     i.fas.fa-check.v1 
-                    .row.justify-content-center.align-items-center
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/54.png' alt='')
-                      .col
-                        p.mb-0 es la desviaci&oacute;n est&aacute;ndar. 
+                    p.mb-0 #[span.fst-italic(style='font-size: 20px').me-3 σ] es la desviaci&oacute;n est&aacute;ndar. 
                   li.mb-3
                     i.fas.fa-check.v1 
-                    .row.justify-content-center.align-items-center
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/55.png' alt='')
-                      .col
-                        p.mb-0 es cada valor del conjunto de datos.
+                    p.mb-0 #[span.fst-italic(style='font-size: 20px').me-3 X #[sub i]] es cada valor del conjunto de datos.
                   li.mb-3
                     i.fas.fa-check.v1 
-                    .row.justify-content-center.align-items-center
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/56.png' alt='')
-                      .col
-                        p.mb-0 es la media aritm&eacute;tica.
+                    p.mb-0 #[span.fst-italic(style='font-size: 20px').me-3 x̅] es la media aritm&eacute;tica.
                   li.mb-3
                     i.fas.fa-check.v1 
-                    .row.justify-content-center.align-items-center
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/57.png' alt='')
-                      .col
-                        p.mb-0 es el n&uacute;mero total de observaciones.
+                    p.mb-0 #[span.fst-italic(style='font-size: 20px').me-3 n] es el n&uacute;mero total de observaciones.
           .col-lg-4.my-3
             .bg19.p-3.brad.h-100
               p.mb-3
@@ -257,26 +218,20 @@
             img.img-t(src='@/assets/curso/temas/58.png')
           .col-lg-4.my-3.my-lg-0.py-3
             div
-              h5  Formula: 
-              img.img-t.mb-4(src='@/assets/curso/temas/59.png')
+              h5  Formula:
+              .p-3.color-primario--borde.tarjeta.d-inline-block.bg-white.border-2
+                math.h2.fw-normal.mb-0(xmlns="http://www.w3.org/1998/Math/MathML")  
+                  <mi>C</mi><mi>V</mi><mo>=</mo><mfrac><mi>&#x3c3;</mi><mover accent='true'><mi>x</mi><mo>&#x2212;</mo></mover></mfrac><mo>&#xd7;</mo><mn>100</mn>
               .brad.p-3.h-100
                 p.mb-3
                   b Donde:
                 ul.lista-ul--color.fa-ul
                   li.mb-3
                     i.fas.fa-check.v1 
-                    .row.justify-content-center.align-items-center
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/60.png' alt='')
-                      .col
-                        p.mb-0 es la desviaci&oacute;n est&aacute;ndar. 
+                    p.mb-0 σ es la desviaci&oacute;n est&aacute;ndar. 
                   li.mb-3
                     i.fas.fa-check.v1 
-                    .row.justify-content-center.align-items-center
-                      .col-auto
-                        img.img-a.img-t(src='@/assets/curso/temas/61.png' alt='')
-                      .col
-                        p.mb-0 es cada valor del conjunto de datos.
+                    p.mb-0 #[span.fst-italic(style='font-size: 20px').me-3 x̅] es cada valor del conjunto de datos.
           .col-lg-5.my-3.my-lg-0.py-3
             .bg19.p-3.brad.h-100
               p.mb-3
@@ -306,25 +261,19 @@
         .row.justify-content-center.align-items-center
           .col-lg-5.my-3.bg17.p-3.brad
             h5  Formula: 
-            img.img-t.mb-4(src='@/assets/curso/temas/63.png')
+            .p-3.color-primario--borde.tarjeta.d-inline-block.bg-white.border-1.mb-4
+              math.h2.fw-normal.mb-0(xmlns="http://www.w3.org/1998/Math/MathML") 
+                <mi>I</mi><mi>Q</mi><mi>R</mi><mo>&#xA0;</mo><mo>=</mo><msub><mi>Q</mi><mn>3</mn></msub><mo>-</mo><msub><mi>Q</mi><mn>1</mn></msub>
             .brad.p-3.h-100
               p.mb-3
                 b Donde:
               ul.lista-ul--color.fa-ul
                 li.mb-3
                   i.fas.fa-check.v1 
-                  .row.justify-content-center.align-items-center
-                    .col-auto
-                      img.img-a.img-t(src='@/assets/curso/temas/64.png' alt='')
-                    .col
-                      p.mb-0 es el tercer cuartil (75% de los datos por debajo).
+                  p.mb-0 #[span.fst-italic(style='font-size: 20px').me-3 Q#[sub 3]] es el tercer cuartil (75 % de los datos por debajo).
                 li.mb-3
                   i.fas.fa-check.v1 
-                  .row.justify-content-center.align-items-center
-                    .col-auto
-                      img.img-a.img-t(src='@/assets/curso/temas/65.png' alt='')
-                    .col
-                      p.mb-0 es el primer cuartil (25% de los datos por debajo).
+                  p.mb-0 #[span.fst-italic(style='font-size: 20px').me-3 Q#[sub 1]] es el primer cuartil (25% de los datos por debajo).
           .col-lg-7.my-3
             div
               p.mb-3
@@ -354,7 +303,9 @@
           .col-lg-7.my-3.order-1
             .bg7.brad.p-4
               h5.text-white  Formula: 
-              img.img-t.mb-4(src='@/assets/curso/temas/63.png')
+              .p-3.color-primario--borde.tarjeta.d-inline-block.bg-white.border-1.mb-4
+                math.h2.fw-normal.mb-0(xmlns="http://www.w3.org/1998/Math/MathML") 
+                  <mi>I</mi><mi>Q</mi><mi>R</mi><mo>&#xA0;</mo><mo>=</mo><msub><mi>Q</mi><mn>3</mn></msub><mo>-</mo><msub><mi>Q</mi><mn>1</mn></msub>
               p.mb-4.text-white
                 b Propiedades:
               .bgw.p-3.brad.mb-3

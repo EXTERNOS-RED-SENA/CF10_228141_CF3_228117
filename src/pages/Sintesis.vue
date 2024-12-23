@@ -38,6 +38,8 @@
                 alt=""
               />
             </div>
+
+            n
             <div class="col pt-lg-0 pt-md-4">
               <p class="mb-0">
                 En el origen del diagrama se encuentra el concepto principal de
@@ -74,6 +76,7 @@
               src="@/assets/curso/temas/sintesis.svg"
               alt="La Figura 4 se denomina «Síntesis temática del componente», allí se mencionan los principales temas tratados sobre el análisis estadístico de datos y generación de gráficos y algunos subtemas que los integran."
             />
+            <figcaption>Fuente: OIT, 2024.</figcaption>
           </figure>
         </div>
         <div class="col-auto">
@@ -87,8 +90,8 @@
             </div>
             <div class="anexo__texto">
               <p>Anexo. Síntesis</p>
-            </div></a
-          >
+            </div>
+          </a>
         </div>
       </div>
     </div>

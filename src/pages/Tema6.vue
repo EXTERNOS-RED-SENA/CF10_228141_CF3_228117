@@ -85,7 +85,7 @@
                   span 8
                 span
                   b Anexos:
-                  |   Incluyen tablas, gr&aacute;ficos adicionales o cualquier informaci&oacute;n complementaria que no sea esencial en el cuerpo principal del informe pero que sea &uacute;til para el lector interesado en m&aacute;s detalles.
+                  |   Incluyen tablas, gr&aacute;ficos adicionales o cualquier informaci&oacute;n complementaria que no sea esencial en el cuerpo principal del informe, pero que sea &uacute;til para el lector interesado en m&aacute;s detalles.
               hr
           .col-lg-4.my-lg-0.my-3.j1
             img.img-t.img-a(src='@/assets/curso/temas/108.png')

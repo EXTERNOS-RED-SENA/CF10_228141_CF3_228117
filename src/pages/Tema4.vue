@@ -73,7 +73,9 @@
                   span.text-white
                     b Ejemplo:
                     |  En un lanzamiento de un dado de 6 caras, la probabilidad marginal de obtener un n&uacute;mero par (eventos favorables: 2, 4, 6) es:
-              img.img-t.img-a(src='@/assets/curso/temas/81.png')
+              .p-3.color-primario--borde.tarjeta.d-inline-block.bg-white.border-1.mb-4
+                  math.h2.fw-normal.mb-0(xmlns="http://www.w3.org/1998/Math/MathML") 
+                    <mi>P</mi><mfenced><mrow><mo>&#xA0;</mo><mi>N</mi><mi>u</mi><mi>m</mi><mi>e</mi><mi>r</mi><mi>o</mi><mo>&#xA0;</mo><mi>p</mi><mi>a</mi><mi>r</mi><mo>&#xA0;</mo></mrow></mfenced><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mn>3</mn><mn>6</mn></mfrac><mo>=</mo><mo>&#xA0;</mo><mn>0.5</mn>
           .col-lg-5.my-3
             .bgw.brad.p-4.h-100.j1
               img.img-t.img-a(src='@/assets/curso/temas/82.png')
@@ -90,21 +92,23 @@
           .col-lg-4.my-lg-0.my-3.j1
             img.img-t.img-a(src='@/assets/curso/temas/84.png')
           .col-lg-4.my-lg-0.my-3
-            .bg23.text-white.p-4.brad.h-100
+            .bg23.p-4.brad.h-100
               .row.justify-content-start.mb-4
-                p.col-lg-auto.mb-4.bg11.text-white.px-3
+                p.text-white.col-lg-auto.mb-4.bg11.text-white.px-3
                   b Eventos mutuamente excluyentes
-              p
+              p.text-white
                 | Son aquellos eventos que no pueden ocurrir al mismo tiempo. La probabilidad de que ocurra AAA o BBB es la suma de las probabilidades de cada evento:
-              img.img-t.img-a(src='@/assets/curso/temas/82.svg')
+              .bg-white.p-4
+                <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>P</mi><mo>(</mo><mi>A</mi><mi>o</mi><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>+</mo><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo></math>
           .col-lg-4.my-lg-0.my-3.j1
-            .bg24.text-white.p-4.brad.h-100
+            .bg24.p-4.brad.h-100
               .row.justify-content-start.mb-4
-                p.col-lg-auto.mb-4.bg11.text-white.px-3
+                p.text-white.col-lg-auto.mb-4.bg11.text-white.px-3
                   b Eventos no mutuamente excluyentes
-              p
+              p.text-white
                 | Son eventos que pueden ocurrir juntos. En este caso, es necesario restar la intersecci&oacute;n de ambos eventos:
-              img.img-t.img-a(src='@/assets/curso/temas/83.svg')
+              .bg-white.p-4.text-small
+                <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>P</mi><mo>(</mo><mi>A</mi><mi>o</mi><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>+</mo><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo><mo>-</mo><mi>P</mi><mo>(</mo><mi>A</mi><mi>y</mi><mi>B</mi><mo>)</mo></math>
       .separador-container
         .separador
       section
@@ -123,15 +127,17 @@
                     | Eventos independientes
               p
                 | Si los eventos no afectan la probabilidad del otro, la probabilidad conjunta de que ocurra AAA y BBB es:
-              img.img-t.img-a(src='@/assets/curso/temas/85.svg')
+              .bg-white.p-4
+                <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>P</mi><mo>(</mo><mi>A</mi><mi>y</mi><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>&#xd7;</mo><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo></math>
           .col-lg-4.my-lg-0.my-3
-            .bg7.text-white.p-4.brad.h-100
+            .bg7.p-4.brad.h-100
               .row.justify-content-start.mb-4
-                p.col-lg-auto.mb-2.bg11.text-white.px-3
+                p.text-white.col-lg-auto.mb-2.bg11.text-white.px-3
                   b Eventos dependientes
-              p Si los eventos est&aacute;n relacionados, la probabilidad conjunta se calcula: 
-              img.img-t.img-a.mb-4(src='@/assets/curso/temas/86.svg')
-              p Donde P(B|A) es la probabilidad de que ocurra B dado que ya ocurri&oacute; A.
+              p.text-white Si los eventos est&aacute;n relacionados, la probabilidad conjunta se calcula: 
+              .bg-white.p-4.text-small
+                <math  xmlns="http://www.w3.org/1998/Math/MathML"><mi>P</mi><mo>(</mo><mi>A</mi><mi>y</mi><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>&#xd7;</mo><mi>P</mi><mo>(</mo><mi>B</mi><mo>|</mo><mi>A</mi><mo>)</mo></math>
+              p.text-white Donde P(B|A) es la probabilidad de que ocurra B dado que ya ocurri&oacute; A.
           .col-lg-4.my-lg-0.my-3.j1
             img.img-t.img-a(src='@/assets/curso/temas/87.png')
       .separador-container
@@ -150,7 +156,8 @@
             .bg25.brad.p-3.h-100
               p.mb-4
                 b F&oacute;rmula:
-              img.img-t.mb-4(src='@/assets/curso/temas/89.svg')
+              .bg-white.p-3
+                <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>P</mi><mo>(</mo><mi>B</mi><mo>|</mo><mi>A</mi><mo>)</mo><mo>=</mo><mfrac><mrow><mi>P</mi><mo>(</mo><mi>B</mi><mo>|</mo><mi>A</mi><mo>)</mo><mo>&#xd7;</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></mrow><mrow><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo></mrow></mfrac></math>
               p.mb-4
                 b Donde:
               ul.lista-ul--color.fa-ul
@@ -193,7 +200,7 @@
               img.img-t.img-a.mb-4(src='@/assets/curso/temas/91.png')
               .row.justify-content-center.mb-4
                 p.col-lg-auto.mb-2.bg26.px-3
-                  b Distribuci&oacute;n de probabilidad discreta
+                  b Distribuci&oacute;n de probabilidad continua
               p
                 | Describe la probabilidad de que una variable aleatoria continua caiga dentro de un rango de valores. Ejemplos incluyen la distribuci&oacute;n normal y la distribuci&oacute;n uniforme.
           .col-lg-4.my-lg-0.my-3.j1
@@ -229,7 +236,7 @@
                       li.mb-3
                         i.fas.fa-check.v1
                         span
-                          | Aproximadamente el 68% de los datos se encuentra dentro de una desviaci&oacute;n est&aacute;ndar de la media, el 95% dentro de dos desviaciones est&aacute;ndar, y el 99.7% dentro de tres desviaciones est&aacute;ndar (regla emp&iacute;rica).
+                          | Aproximadamente el 68 % de los datos se encuentra dentro de una desviaci&oacute;n est&aacute;ndar de la media, el 95 % dentro de dos desviaciones est&aacute;ndar, y el 99.7 % dentro de tres desviaciones est&aacute;ndar (regla emp&iacute;rica).
           .col-lg-2.my-lg-0.my-3.j1
             img.img-t.img-a(src='@/assets/curso/temas/94.png')
       .separador-container
@@ -270,7 +277,8 @@
             .bg25.brad.p-3.h-100
               p.mb-4
                 b F&oacute;rmula:
-              img.img-t.mb-4(src='@/assets/curso/temas/96.svg')
+              .bg-white.p-3
+                <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Z</mi><mo>=</mo><mfrac><mrow><mi>x</mi><mo>-</mo><mi>&#x3bc;</mi></mrow><mi>&#x3c3;</mi></mfrac></math>
               p.mb-4
                 b Donde:
               ul.lista-ul--color.fa-ul
